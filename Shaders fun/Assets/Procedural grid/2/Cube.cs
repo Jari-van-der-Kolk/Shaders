@@ -33,5 +33,6 @@ public class Cube : MonoBehaviour {
 		for (int i = 0; i < vertices.Length; i++) {
 			Gizmos.DrawSphere(vertices[i], 0.1f);
 		}
+		
 	}
 }
